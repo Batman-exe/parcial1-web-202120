@@ -4,9 +4,11 @@ const tableSection = document.getElementById('table-section');
 const table = document.getElementById('table');
 const tbody = document.getElementById('body-table');
 const message = document.getElementById('message');
+const controller = require('public/controller');
 
 enterButton.addEventListener('click', (event) => {
   //Implementar lógica del button submit
+  
   alert('Implementar lógica del button submit');
   getresults(123);
   event.preventDefault();
